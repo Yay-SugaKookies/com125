@@ -1,0 +1,7 @@
+ Scanner kb = new Scanner(System.in);
+        System.out.print("Enter Hexagon side: ");
+        double side = kb.nextDouble();
+        double area = (6 * side * side)/(4 * Math.tan(Math.PI/6)); 
+        System.out.println("Area is : " + area);
+        double perim = 6 * side; 
+        System.out.println("Perimeter is : " + perim);
