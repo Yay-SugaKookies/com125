@@ -21,13 +21,13 @@ public class TestPractice1 {
         }
         average=sum/nums.length;
         for(int i=0; i<=nums.length-1; i++){
-            if(nums[i]>largest){
+            if(nums[i]>=largest){
                 largest=nums[i];
             }
         }
         smallest=nums[1];
         for(int i=0; i<=nums.length-1; i++){
-            if(nums[i]<smallest){
+            if(nums[i]<=smallest){
                 smallest=nums[i];
             }
         }
