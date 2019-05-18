@@ -32,7 +32,7 @@ public class TestPractice1 {
             }
         }
         System.out.println("Nums: "+num);
-        System.out.println("-> Sum is : "+sum);
+        System.out.println("\n-> Sum is : "+sum);
         System.out.println("-> Average is : "+average);
         System.out.println("-> Largest is : "+largest);
         System.out.println("-> Smallest is : "+smallest);
